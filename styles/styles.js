@@ -1,4 +1,4 @@
- import { StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
@@ -36,6 +36,12 @@ export const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 16,
   },
+  focusedInput: {
+    borderWidth: 1,
+    borderColor: "#FF6C00",
+    backgroundColor: "#FFFFFF",
+  },
+
   pressableShowPassword: {
     position: "absolute",
     right: 16,
@@ -56,7 +62,7 @@ export const styles = StyleSheet.create({
     position: "relative",
     top: -60,
     marginBottom: -32,
-   
+  
   },
   addCross: {
     width: 25,
@@ -65,7 +71,6 @@ export const styles = StyleSheet.create({
     position: "absolute",
     right: -12.5,
     bottom: 14,
-    backgroundColor: "transparent",
   },
   registerButton: {
     display: "flex",
@@ -107,6 +112,7 @@ export const styles = StyleSheet.create({
     height: 489,
     marginTop: "auto",
     alignItems: "center",
+
   },
   starsInput: {
     color: "#212121",
@@ -115,7 +121,7 @@ export const styles = StyleSheet.create({
 
   scrollArea: {
     height: 549,
-
+   
     marginTop: "auto",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
