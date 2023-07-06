@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 import { styles } from "./styles/styles";
 
 import { useFonts } from "expo-font";
-// a
+import RegistrationScreen from "./Screens/RegistrationScreen/RegistrationScreen";
 import LoginScreen from "./Screens/LoginScreen/LoginScreen";
 
 export default function App() {
