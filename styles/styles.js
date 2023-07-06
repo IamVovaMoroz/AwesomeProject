@@ -54,16 +54,31 @@ export const styles = StyleSheet.create({
     textAlign: "right",
     fontSize: 16,
   },
-  avatarContainer: {
-    width: 120,
-    height: 120,
-    backgroundColor: "#F6F6F6",
-    borderRadius: 16,
-    position: "relative",
-    top: -60,
-    marginBottom: -32,
-  
-  },
+
+
+//   avatarContainer: {
+//   width: 120,
+//   height: 120,
+//   backgroundColor: "#F6F6F6",
+//   borderRadius: 16,
+//   position: "absolute",
+//   top: +122,
+//   left: "50%",
+//   marginLeft: -60,
+//   zIndex: 9999,
+// },
+
+avatarContainer: {
+  width: 120,
+  height: 120,
+  backgroundColor: "#F6F6F6",
+  borderRadius: 16,
+  position: "relative",
+  top: -60,
+  marginBottom: -32,
+
+},
+
   addCross: {
     width: 25,
     height: 25,
@@ -112,7 +127,7 @@ export const styles = StyleSheet.create({
     height: 489,
     marginTop: "auto",
     alignItems: "center",
-
+   
   },
   starsInput: {
     color: "#212121",
@@ -121,7 +136,6 @@ export const styles = StyleSheet.create({
 
   scrollArea: {
     height: 549,
-   
     marginTop: "auto",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
